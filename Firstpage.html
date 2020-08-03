@@ -9,35 +9,19 @@
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="crd.css">
 </head>
-<body>
+<body background="Air.jpg">
 
 
-<nav class="navbar navbar-default">
-  <div class="container7">
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="">Home</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Contact</a> </li>
-          </ul>
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">CRD-Realty</a>
-       
-    </div>
 
-   
-       
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+
+</div>
+
+
 <!-- Header & HomeScreen -->
 
 
@@ -92,6 +76,7 @@ Carrington Rogers & Dyer, Inc. strives to present a service that goes beyond the
         Email: Sharriffdyer@crd-realty.com
       </h3>
 
+      <!--
       <form action="" method="post">
         <input type="Text" name="FirstName" placeholder="First Name">
         <input type="Text" name="LastName" placeholder="Last Name">
@@ -102,6 +87,45 @@ Carrington Rogers & Dyer, Inc. strives to present a service that goes beyond the
         <button>Submit</button>
 
       </form>
+      -->
+
+  
+
+      <div class="container4">
+        <form action="action_page.php">
+      
+          <label for="fname"></label>
+          <input type="text" id="fname" name="firstname" required placeholder="First Name">
+      
+          <label for="lname"></label>
+          <input type="text" id="lname" name="lastname" placeholder="Last Name">
+
+          
+          <label for="Phone"></label>
+          <input type="text" id="Phone" name="PhoneNumber" placeholder="Phone Number">
+
+          
+          <label for="Email"></label>
+          <input type="text" id="Email" name="Email" placeholder="Email Address">
+      
+          <label for="Interest"></label>
+          <select id="Interest" name="Interest" placeholder="Interest">
+            <option value="option">Purpose...</option>
+            <option value="Purchase">Purchase</option>
+            <option value="Sell">Sell</option>
+            <option value="Transactional">Transactional Assistance</option>
+          </select>
+      
+          <label for="subject"></label>
+          <textarea id="subject" name="subject" placeholder="Additional Info..." style="height:200px"></textarea>
+      <h3></h3>
+          <input type="submit" value="Submit">
+      <h3></h3>
+      
+        </form>
+      </div>
+
+
 
       <h3></h3>
       <h3></h3>
@@ -109,11 +133,7 @@ Carrington Rogers & Dyer, Inc. strives to present a service that goes beyond the
     </div>
   </section>
 
-
-
-
-
-	
+	<!--
 	<div class="video-container">
     <div class="col-lg-12">
 			<video autoplay loop muted id="myVideo">
@@ -121,12 +141,8 @@ Carrington Rogers & Dyer, Inc. strives to present a service that goes beyond the
 			</video>
       </div>
       </div>
-      
+      -->
 
-  
-      
-
-			
 
 			</div>
 		</div>
